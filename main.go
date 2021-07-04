@@ -22,6 +22,6 @@ func main() {
 
 	server.POST("/bulk", handler.Bulk)
 
-	server.Run()
+	server.Run(":8080")
 
 }
